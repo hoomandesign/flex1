@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width:680px) {
+    .c-flex {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+    .item {
+        width: 20%;
+        color: white;
+        font-size: 3em;
+        text-align: center;
+        line-height: 120px;
+    }
+    .item1 {
+        background-image: linear-gradient(to right bottom, rgb(235, 74, 74), rgb(235, 74, 74) 30%, rgb(195, 29, 29) 30%, rgb(195, 29, 29) 70%, rgb(235, 74, 74) 0%);
+    }
+    .item2 {
+        background-image: linear-gradient(to right bottom, rgb(176, 226, 235), rgb(176, 226, 235) 30%, rgb(59, 235, 247) 30%, rgb(59, 235, 247) 70%, rgb(176, 226, 235) 0%);
+    }
+    .item3 {
+        background-image: linear-gradient(to right bottom, rgb(236, 160, 213), rgb(236, 160, 213) 30%, rgb(195, 51, 130) 30%, rgb(195, 51, 130) 70%, rgb(236, 160, 213) 0%);
+    }
+    .item4 {
+        background-image: linear-gradient(to right bottom, rgb(230, 241, 69), rgb(230, 241, 69) 30%, rgba(224, 236, 57, 0.911) 30%, rgb(224, 236, 57, 0.911) 70%, rgb(230, 241, 69) 0%);
+    }
+    .item5 {
+        background-image: linear-gradient(to right bottom, rgb(211, 67, 79), rgb(211, 67, 79) 30%, rgb(219, 164, 61) 30%, rgb(219, 164, 61) 70%, rgb(211, 67, 79) 0%);
+    }
+}
+
+@media (max-width:680px) {
+    .c-flex {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .item {
+        height: 20%;
+        color: white;
+        font-size: 3em;
+        text-align: center;
+        line-height: 120px;
+    }
+    .item1 {
+        background-image: linear-gradient(to right bottom, rgb(235, 74, 74), rgb(235, 74, 74) 30%, rgb(195, 29, 29) 30%, rgb(195, 29, 29) 70%, rgb(235, 74, 74) 0%);
+    }
+    .item2 {
+        background-image: linear-gradient(to right bottom, rgb(176, 226, 235), rgb(176, 226, 235) 30%, rgb(59, 235, 247) 30%, rgb(59, 235, 247) 70%, rgb(176, 226, 235) 0%);
+    }
+    .item3 {
+        background-image: linear-gradient(to right bottom, rgb(236, 160, 213), rgb(236, 160, 213) 30%, rgb(195, 51, 130) 30%, rgb(195, 51, 130) 70%, rgb(236, 160, 213) 0%);
+    }
+    .item4 {
+        background-image: linear-gradient(to right bottom, rgb(230, 241, 69), rgb(230, 241, 69) 30%, rgba(224, 236, 57, 0.911) 30%, rgb(224, 236, 57, 0.911) 70%, rgb(230, 241, 69) 0%);
+    }
+    .item5 {
+        background-image: linear-gradient(to right bottom, rgb(211, 67, 79), rgb(211, 67, 79) 30%, rgb(219, 164, 61) 30%, rgb(219, 164, 61) 70%, rgb(211, 67, 79) 0%);
+    }
+}
